@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Hosting;
 using project1.Models;
+using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Text.Json;
@@ -27,6 +28,11 @@ namespace project1.Services
             {
                 return JsonSerializer.Deserialize<Pasta[]>(json_file.ReadToEnd());
             }
+        }
+
+        internal IEnumerable<Pasta> getPastaRecord()
+        {
+            throw new NotImplementedException();
         }
     }
 }

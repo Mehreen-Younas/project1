@@ -1,6 +1,38 @@
 ﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
 for details on configuring this project to bundle and minify static web assets. */
 
+#pastaContainer {
+    margin-bottom: 60px;
+    
+}
+#pastaImage{
+    width:80%;
+    height:80%;
+    display:block;
+    margin:0 auto;
+}
+#pastaTitle{
+    display:block;
+    text-align:center;
+    font-size:20px;
+}
+#pastaPrice {
+    display: block;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   color:darkslategrey
+}
+#pastaQuantity{
+    width:50%;
+    display:inline;
+    text-align:center;
+}
+#cartButton {
+    width: 50%;
+    display: inline;
+}
+
+
 a.navbar-brand {
   white-space: normal;
   text-align: center;

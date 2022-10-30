@@ -1,27 +1,42 @@
 [
-    {
-        "id" : 1,
-        "name" : "Creamy Cheese Pasta",
-        "image" : "https://g.christianbook.com/dg/product/web/f400/169958.jpg"
-    },
-    {
-        "id" : 2,
-        "name" : "Masala Pasta",
-        "image" : "https://chemistryhall.com/wp-content/uploads/2019/08/chemgen.jpg"
-    },
-    {
-        "id" : 3,
-        "name" : "Garlic Parmesan",
-        "image" : "https://open.umn.edu/rails/active_storage/blobs/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBBcWdJIiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--bbdd3db213b58e0310c4eadcc3b1bdf6a463717c/Principles-of-Biology-683x1024.jpg"
-    },
-    {
-        "id" : 4,
-        "name" : "Tuscan Chicken Pasta",
-        "image" : "https://comptes-books.com/wp-content/uploads/2021/03/TOP-Math-Textbook-6B.jpg"
-    },
-    {
-        "id" : 5,
-        "name" : "Pasta al Tonno",
-        "image" : "https://g.christianbook.com/dg/product/web/f400/169958.jpg"
-    }
+  {
+    "id": 1,
+    "name": "Creamy Cheese Pasta",
+    "image": "https://littlesunnykitchen.com/wp-content/uploads/2021/11/Cream-Cheese-Pasta-Sauce-1.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Masala Pasta",
+    "image": "https://www.spiceupthecurry.com/wp-content/uploads/2019/07/masala-pasta-recipe-15.jpg"
+  },
+  {
+    "id": 3,
+    "name": "Garlic Chicken Parmesan",
+    "image": "https://getonmyplate.com/wp-content/uploads/2021/11/galic-parmesan-chicken-pasta-9.jpg"
+  },
+  {
+    "id": 4,
+    "name": "Tuscan Chicken Pasta",
+    "image": "https://simplyhomecooked.com/wp-content/uploads/2020/02/Tuscan-chicken-pasta-n-scaled.jpg"
+  },
+  {
+    "id": 5,
+    "name": "Pasta al Tonno",
+    "image": "https://cookingwithcurls.com/wp-content/uploads/2016/07/Pasta-al-Tonno-is-a-classic-Italian-dish-that-is-loaded-with-flavor-and-easy-to-prepare-cookingwithcurls.com_-500x375.jpg"
+  },
+  {
+    "id": 6,
+    "name": "Spaghetti Salad",
+    "image": "https://therecipecritic.com/wp-content/uploads/2015/05/spaghettisalad3.jpg"
+  },
+  {
+    "id": 7,
+    "name": "Tomato  Pasta",
+    "image": "https://hungryhealthyhappy.com/wp-content/uploads/2020/01/Easy-Tomato-Pasta-Sauce-featured-b.jpg"
+  },
+  {
+    "id": 8,
+    "name": "Spaghetti with Meat balls",
+    "image": "https://www.onceuponachef.com/images/2019/09/Spaghetti-and-Meatballs.jpg"
+  }
 ]

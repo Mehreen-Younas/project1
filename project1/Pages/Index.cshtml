@@ -6,9 +6,18 @@
 
 <div class="text-center">
     <h1 class="display-4">Forkful</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+   
 </div>
-@foreach (var pasta in Model.Pastas)
-{
-    <h2>@pasta.pasta_name</h2>
-}
+
+<div class="row">
+    @foreach (var pasta in Model.Pastas)
+    {
+        <div id="pastaContainer" class="col-lg-3 col-md-6 col-sm-12">
+            <img id="pastaImage" src="@pasta.pasta_image" alt="@pasta.pasta_name" />
+            <span id="pastaTitle">@pasta.pasta_name</span>
+               <span id="pastaPrice">Rs. Coming Soon</span>
+                 <span > <input id="pastaQuantity" type="number" name="quantity" value="" placeholder="0"/></span>
+                 <span id="cartButton"><button>Add to Cart</button></span>
+                </div>
+    }
+</div>
