@@ -7,9 +7,8 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using project1.Models;
 using project1.Services;
-using System;
 using System.Collections.Generic;
-using System.Linq;
+
 using System.Text.Json;
 using System.Threading.Tasks;
 
@@ -55,7 +54,13 @@ namespace project1
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();
-               
+                endpoints.MapGet("/getPastaData", (context) =>
+                {
+                    IEnumerable<Pasta> getPastaData = (IEnumerable<Pasta>)app.ApplicationServices.GetService<JsonPastaFile>().getPastaData();
+                    var JsonPastaRecord = JsonSerializer.Serialize<IEnumerable<Pasta>>(getPastaData);
+                    
+                    return context.Response.WriteAsync(JsonPastaRecord);
+                });
             });
         }
     }

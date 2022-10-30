@@ -30,9 +30,6 @@ namespace project1.Services
             }
         }
 
-        internal IEnumerable<Pasta> getPastaRecord()
-        {
-            throw new NotImplementedException();
-        }
+       
     }
 }
