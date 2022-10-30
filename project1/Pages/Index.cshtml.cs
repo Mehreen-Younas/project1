@@ -26,7 +26,7 @@ namespace project1.Pages
 
         public void OnGet()
         {
-            Pastas = PastaService.getPastaData();
+          
 
 
 
