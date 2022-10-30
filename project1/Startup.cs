@@ -27,6 +27,7 @@ namespace project1
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddRazorPages();
+            services.AddControllers();
             services.AddTransient<JsonPastaFile>();
         }
 
@@ -54,13 +55,8 @@ namespace project1
             app.UseEndpoints(endpoints =>
             {
                 endpoints.MapRazorPages();
-                endpoints.MapGet("/getPastaData", (context) =>
-                {
-                    IEnumerable<Pasta> getPastaData = (IEnumerable<Pasta>)app.ApplicationServices.GetService<JsonPastaFile>().getPastaData();
-                    var JsonPastaRecord = JsonSerializer.Serialize<IEnumerable<Pasta>>(getPastaData);
-                    
-                    return context.Response.WriteAsync(JsonPastaRecord);
-                });
+                endpoints.MapControllers();
+               
             });
         }
     }
